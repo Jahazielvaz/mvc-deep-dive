@@ -1,5 +1,5 @@
 const express = require('express');
-const app = express();
+const app = require('../app.js');
 
 app.listen(4000, function(){
 console.log('All good in the hood 4000');

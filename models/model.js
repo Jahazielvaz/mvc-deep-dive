@@ -21,7 +21,11 @@ const Guests = connect.define('Guests', {
   last: Sequelize.STRING
 })
 
+
+
 //Force true will drop the table if it already EXISTS
 Guests.sync({force: true}).then(() =>{
   return Guests;
 })
+
+module.exports = Guests;
