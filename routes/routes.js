@@ -19,8 +19,10 @@ router.post('/create', function(req, res){
   }).then(function(){
     // console.log(`This is the request that body ${req.body}`);
     res.redirect('/');
+    var yourName = {name: req.body.name};
   })
 })
+
 
 
 

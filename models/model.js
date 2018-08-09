@@ -2,7 +2,7 @@
 
 const Sequelize = require('sequelize');
 
-const connect = new Sequelize('node_postdb', 'mac', {
+const connect = new Sequelize('journal_entries', 'KupidoExportLLC', {
   dialect: "postgres"
 });
 
